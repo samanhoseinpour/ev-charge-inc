@@ -4,7 +4,7 @@ import "./globals.css";
 
 import { ReactLenis } from "./utils/lenis";
 
-import { ScrollProgress, NavbarDemo, Footer } from "./components";
+import { ScrollProgress, Navbar, Footer } from "./components";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -26,7 +26,7 @@ export default function RootLayout({
       <ReactLenis root>
         <body className={`${manrope.variable} antialiased`}>
           <ScrollProgress />
-          <NavbarDemo />
+          <Navbar />
           {children}
           <Footer />
           <br />
