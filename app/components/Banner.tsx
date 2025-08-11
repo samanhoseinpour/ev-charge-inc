@@ -56,7 +56,6 @@ const Banner = ({ message, cta }: BannerProps) => {
           className="-m-3 p-3 focus-visible:-outline-offset-4"
         >
           <span className="sr-only">Dismiss</span>
-          {/* <XMarkIcon aria-hidden="true" className="size-5 text-gray-900" /> */}
         </button>
       </div>
     </section>

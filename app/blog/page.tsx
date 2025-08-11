@@ -1,5 +1,7 @@
+import { Loader } from "../components";
+
 const BlogPage = () => {
-  return <div className="container mx-auto">BlogPage</div>;
+  return <Loader text="We're Under Maintenance..." />;
 };
 
 export default BlogPage;

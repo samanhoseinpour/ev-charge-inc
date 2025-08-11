@@ -221,8 +221,11 @@ const HomeHero = () => {
 
   return (
     <div ref={containerRef}>
-      <section className="hero overflow-hidden relative">
-        <canvas className="block" ref={canvasRef}></canvas>
+      <section className="hero overflow-hidden relative w-[100vw] h-[100svh]">
+        <canvas
+          className="block w-full h-full object-cover"
+          ref={canvasRef}
+        ></canvas>
 
         <div className="hero-content">
           <div className="header" ref={headerRef}>
