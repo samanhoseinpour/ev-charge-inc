@@ -1,18 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
 import { ReactLenis } from "./utils/lenis";
 
-import { Banner, Navbar, Footer } from "./components";
+import { ScrollProgress, NavbarDemo, Footer } from "./components";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
 });
 
@@ -29,14 +24,31 @@ export default function RootLayout({
   return (
     <html lang="en">
       <ReactLenis root>
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        >
-          <Banner />
-          <Navbar />
+        <body className={`${manrope.variable} antialiased`}>
+          <ScrollProgress />
+          <NavbarDemo />
           {children}
-
           <Footer />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </body>
       </ReactLenis>
     </html>

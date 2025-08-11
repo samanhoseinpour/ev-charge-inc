@@ -1,5 +1,6 @@
+import ScrollProgress from "./ScrollProgress";
 import Banner from "./Banner";
-import Navbar from "./Navbar";
+import NavbarDemo from "./Navbar";
 import Footer from "./Footer";
 
-export { Banner, Navbar, Footer };
+export { ScrollProgress, Banner, NavbarDemo, Footer };

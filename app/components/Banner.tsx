@@ -1,4 +1,9 @@
-const Banner = () => {
+interface BannerProps {
+  message: string;
+  cta: string;
+}
+
+const Banner = ({ message, cta }: BannerProps) => {
   return (
     <section className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
       <div
@@ -35,13 +40,14 @@ const Banner = () => {
           >
             <circle r={1} cx={1} cy={1} />
           </svg>
+          {message}
           We’ll be back ASAP — stay tuned.
         </p>
         <a
           href="tel:+17788878363"
           className="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
-          Contact Us
+          {cta}
         </a>
       </div>
       <div className="flex flex-1 justify-end">
