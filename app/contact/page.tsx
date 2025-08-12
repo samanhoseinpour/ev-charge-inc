@@ -133,9 +133,9 @@ const ContactPage = () => {
                     aria-label="Country"
                     className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-md text-[#0e0004] placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530] sm:text-md/6"
                   >
-                    <option>US</option>
-                    <option>CA</option>
-                    <option>EU</option>
+                    <option>US 🇺🇸</option>
+                    <option>CA 🇨🇦</option>
+                    <option>EU 🇪🇺</option>
                   </select>
                   <svg
                     aria-hidden="true"
