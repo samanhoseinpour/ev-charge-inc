@@ -15,6 +15,14 @@ export const metadata: Metadata = {
   title: "EV Charge Inc - Electric Vehicle Charging Solutions",
   description:
     "EV Charge Inc — LA-based provider of reliable EV charging hardware, OCPP-compliant software, and expert installation.",
+  keywords: [
+    "EV charging",
+    "electric vehicle charging",
+    "OCPP software",
+    "EV charger installation",
+    "sustainable transportation",
+    "EV Charge Inc",
+  ],
 };
 
 export default function RootLayout({

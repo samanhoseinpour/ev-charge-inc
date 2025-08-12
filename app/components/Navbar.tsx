@@ -9,16 +9,16 @@ const Navbar = () => {
         </Link>
         <div className="absolute left-1/2 transform -translate-x-1/2">
           <ul className="flex items-center justify-center gap-10">
-            <li>
+            <li className="hidden lg:block">
               <Link href="/">Home</Link>
             </li>
-            <li>
+            <li className="hidden lg:block">
               <Link href="/solutions">Solutions</Link>
             </li>
             <li>
               <Link href="/about">About</Link>
             </li>
-            <li>
+            <li className="hidden lg:block">
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
