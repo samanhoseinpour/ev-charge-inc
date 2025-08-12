@@ -537,13 +537,14 @@ const BentoCardGrid: React.FC<{
   children: React.ReactNode;
   gridRef?: React.RefObject<HTMLDivElement | null>;
 }> = ({ children, gridRef }) => (
-  <div
-    className="bento-section grid gap-2 select-none relative container mx-auto"
+  <section
+    className="bento-section grid gap-2 select-none relative container mx-auto mb-24"
     style={{ fontSize: "clamp(1rem, 0.9rem + 0.5vw, 1.5rem)" }}
     ref={gridRef}
   >
+    <h2 className="text-black">Our Core Values</h2>
     {children}
-  </div>
+  </section>
 );
 
 const useMobileDetection = () => {

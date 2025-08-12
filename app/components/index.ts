@@ -10,6 +10,7 @@ import HomeHero from "./home/HomeHero";
 // About Components
 import MagicBento from "./About/MagicBento";
 import Lamp from "./About/Lamp";
+import CompanyTestimonials from "./About/CompanyTestimonials";
 
 export {
   ScrollProgress,
@@ -20,4 +21,5 @@ export {
   HomeHero,
   MagicBento,
   Lamp,
+  CompanyTestimonials,
 };

@@ -1,4 +1,5 @@
-import { Lamp, MagicBento } from "../components";
+import { Lamp, MagicBento, CompanyTestimonials } from "../components";
+import { companyTestimonialsItem } from "../constants/constants";
 
 export const metadata = {
   title: "About Us | EV Charge Inc.",
@@ -28,6 +29,7 @@ const AboutPage = () => {
         particleCount={36}
         glowColor="255 ,255 ,255"
       />
+      <CompanyTestimonials items={companyTestimonialsItem} />
     </main>
   );
 };
