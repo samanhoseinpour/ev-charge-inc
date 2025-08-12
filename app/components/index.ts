@@ -2,6 +2,7 @@ import ScrollProgress from "./ScrollProgress";
 import Banner from "./Banner";
 import Loader from "./Loader";
 import Navbar from "./Navbar";
+import Button from "./Button";
 import Footer from "./Footer";
 
 // Home Components
@@ -17,6 +18,7 @@ export {
   Banner,
   Loader,
   Navbar,
+  Button,
   Footer,
   HomeHero,
   MagicBento,

@@ -73,11 +73,10 @@ const CompanyTestimonials = ({
 
   return (
     <section className="container mx-auto">
-      <h2 className="">Company Testimonials</h2>
       <div
         ref={containerRef}
         className={cn(
-          " scroller relative z-20 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_10%,white_90%,transparent)]",
+          "scroller relative z-20 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_10%,white_90%,transparent)]",
           className
         )}
       >

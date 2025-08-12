@@ -30,6 +30,7 @@ const AboutPage = () => {
         glowColor="255 ,255 ,255"
       />
       <CompanyTestimonials items={companyTestimonialsItem} />
+      <CompanyTestimonials items={companyTestimonialsItem} direction="right" />
     </main>
   );
 };
