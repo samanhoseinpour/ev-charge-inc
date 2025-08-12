@@ -52,6 +52,7 @@ const ContactPage = () => {
                 autoComplete="given-name"
                 placeholder="First name"
                 required
+                autoFocus
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
