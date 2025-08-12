@@ -1,4 +1,4 @@
-import { Loader } from "../components";
+import { Lamp, MagicBento } from "../components";
 
 export const metadata = {
   title: "About Us | EV Charge Inc.",
@@ -13,7 +13,23 @@ export const metadata = {
 };
 
 const AboutPage = () => {
-  return <Loader text="We're Under Maintenance..." />;
+  return (
+    <main>
+      <Lamp />
+      <MagicBento
+        textAutoHide={true}
+        enableStars={true}
+        enableSpotlight={true}
+        enableBorderGlow={true}
+        enableTilt={true}
+        enableMagnetism={true}
+        clickEffect={true}
+        spotlightRadius={300}
+        particleCount={36}
+        glowColor="255 ,255 ,255"
+      />
+    </main>
+  );
 };
 
 export default AboutPage;

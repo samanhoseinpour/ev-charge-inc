@@ -7,4 +7,17 @@ import Footer from "./Footer";
 // Home Components
 import HomeHero from "./home/HomeHero";
 
-export { ScrollProgress, Banner, Loader, Navbar, Footer, HomeHero };
+// About Components
+import MagicBento from "./About/MagicBento";
+import Lamp from "./About/Lamp";
+
+export {
+  ScrollProgress,
+  Banner,
+  Loader,
+  Navbar,
+  Footer,
+  HomeHero,
+  MagicBento,
+  Lamp,
+};
