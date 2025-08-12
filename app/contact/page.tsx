@@ -42,7 +42,7 @@ const ContactPage = () => {
               htmlFor="first-name"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              First name
+              First name *
             </label>
             <div className="mt-2.5">
               <input
@@ -51,6 +51,7 @@ const ContactPage = () => {
                 type="text"
                 autoComplete="given-name"
                 placeholder="First name"
+                required
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
@@ -60,7 +61,7 @@ const ContactPage = () => {
               htmlFor="last-name"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              Last name
+              Last name *
             </label>
             <div className="mt-2.5">
               <input
@@ -69,6 +70,7 @@ const ContactPage = () => {
                 type="text"
                 autoComplete="family-name"
                 placeholder="Last name"
+                required
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
@@ -98,7 +100,7 @@ const ContactPage = () => {
               htmlFor="email"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              Work email
+              Work email *
             </label>
             <div className="mt-2.5">
               <input
@@ -107,6 +109,7 @@ const ContactPage = () => {
                 type="email"
                 autoComplete="email"
                 placeholder="name@company.com"
+                required
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
@@ -117,7 +120,7 @@ const ContactPage = () => {
               htmlFor="phone-number"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              Phone number
+              Phone number *
             </label>
             <div className="mt-2.5">
               <div className="flex rounded-md bg-white outline-1 -outline-offset-1 outline-[#0e0004]/20 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-[#2C5530]">
@@ -154,6 +157,7 @@ const ContactPage = () => {
                   name="phone-number"
                   type="text"
                   placeholder="+1 415 555 0123"
+                  required
                   className="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-[#0e0004] placeholder:text-[#0e0004]/50 focus:outline-none sm:text-sm/6"
                 />
               </div>
@@ -165,12 +169,13 @@ const ContactPage = () => {
               htmlFor="use-case"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              Primary use case
+              Primary use case *
             </label>
             <div className="mt-2.5">
               <select
                 id="use-case"
                 name="use-case"
+                required
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               >
                 <option value="workplace">Workplace</option>
@@ -189,7 +194,7 @@ const ContactPage = () => {
               htmlFor="project-location"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              Project location
+              Project location *
             </label>
             <div className="mt-2.5">
               <input
@@ -197,6 +202,7 @@ const ContactPage = () => {
                 name="project-location"
                 type="text"
                 placeholder="City, State/Province"
+                required
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
@@ -207,7 +213,7 @@ const ContactPage = () => {
               htmlFor="num-ports"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              Estimated number of charging ports
+              Estimated number of charging ports *
             </label>
             <div className="mt-2.5">
               <input
@@ -216,6 +222,7 @@ const ContactPage = () => {
                 type="number"
                 min={1}
                 placeholder="e.g., 8"
+                required
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
@@ -226,12 +233,13 @@ const ContactPage = () => {
               htmlFor="power-level"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              Desired power level
+              Desired power level *
             </label>
             <div className="mt-2.5">
               <select
                 id="power-level"
                 name="power-level"
+                required
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               >
                 <option value="l2">Level 2 (7–22 kW)</option>
@@ -292,7 +300,7 @@ const ContactPage = () => {
               htmlFor="message"
               className="block text-sm/6 font-semibold text-[#0e0004]"
             >
-              Project details
+              Project details *
             </label>
             <div className="mt-2.5">
               <textarea
@@ -300,6 +308,7 @@ const ContactPage = () => {
                 name="message"
                 rows={4}
                 placeholder="Tell us about your site (parking layout, available power, access hours), software needs (RFID, payments, OCPP), and any constraints."
+                required
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
                 defaultValue={""}
               />
