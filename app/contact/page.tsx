@@ -40,7 +40,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor="first-name"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               First name *
             </label>
@@ -53,14 +53,14 @@ const ContactPage = () => {
                 placeholder="First name"
                 required
                 autoFocus
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
           </div>
           <div>
             <label
               htmlFor="last-name"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Last name *
             </label>
@@ -72,7 +72,7 @@ const ContactPage = () => {
                 autoComplete="family-name"
                 placeholder="Last name"
                 required
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
           </div>
@@ -80,7 +80,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor="company"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Company or organization
             </label>
@@ -91,7 +91,7 @@ const ContactPage = () => {
                 type="text"
                 autoComplete="organization"
                 placeholder="Company name"
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
           </div>
@@ -99,7 +99,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor="email"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Work email *
             </label>
@@ -111,7 +111,7 @@ const ContactPage = () => {
                 autoComplete="email"
                 placeholder="name@company.com"
                 required
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
           </div>
@@ -119,7 +119,7 @@ const ContactPage = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="phone-number"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Phone number *
             </label>
@@ -131,7 +131,7 @@ const ContactPage = () => {
                     name="country"
                     autoComplete="country"
                     aria-label="Country"
-                    className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-base text-[#0e0004] placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530] sm:text-sm/6"
+                    className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-md text-[#0e0004] placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530] sm:text-md/6"
                   >
                     <option>US</option>
                     <option>CA</option>
@@ -159,7 +159,7 @@ const ContactPage = () => {
                   type="text"
                   placeholder="+1 415 555 0123"
                   required
-                  className="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-[#0e0004] placeholder:text-[#0e0004]/50 focus:outline-none sm:text-sm/6"
+                  className="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-md text-[#0e0004] placeholder:text-[#0e0004]/50 focus:outline-none sm:text-md/6"
                 />
               </div>
             </div>
@@ -168,7 +168,7 @@ const ContactPage = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="use-case"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Primary use case *
             </label>
@@ -177,7 +177,7 @@ const ContactPage = () => {
                 id="use-case"
                 name="use-case"
                 required
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               >
                 <option value="workplace">Workplace</option>
                 <option value="fleet">Fleet depot</option>
@@ -193,7 +193,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor="project-location"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Project location *
             </label>
@@ -204,7 +204,7 @@ const ContactPage = () => {
                 type="text"
                 placeholder="City, State/Province"
                 required
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
           </div>
@@ -212,7 +212,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor="num-ports"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Estimated number of charging ports *
             </label>
@@ -224,7 +224,7 @@ const ContactPage = () => {
                 min={1}
                 placeholder="e.g., 8"
                 required
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               />
             </div>
           </div>
@@ -232,7 +232,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor="power-level"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Desired power level *
             </label>
@@ -241,7 +241,7 @@ const ContactPage = () => {
                 id="power-level"
                 name="power-level"
                 required
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               >
                 <option value="l2">Level 2 (7–22 kW)</option>
                 <option value="dc-fast">DC Fast (50–150 kW)</option>
@@ -256,7 +256,7 @@ const ContactPage = () => {
           <div>
             <label
               htmlFor="timeline"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Project timeline
             </label>
@@ -264,7 +264,7 @@ const ContactPage = () => {
               <select
                 id="timeline"
                 name="timeline"
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
               >
                 <option value="0-3">0–3 months</option>
                 <option value="3-6">3–6 months</option>
@@ -290,7 +290,7 @@ const ContactPage = () => {
             </div>
             <label
               htmlFor="installation-support"
-              className="text-sm/6 text-[#0e0004]/70"
+              className="text-md/6 text-[#0e0004]/70"
             >
               I need installation services (site survey, make‑ready, permits)
             </label>
@@ -299,7 +299,7 @@ const ContactPage = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block text-sm/6 font-semibold text-[#0e0004]"
+              className="block text-md/6 font-semibold text-[#0e0004]"
             >
               Project details *
             </label>
@@ -310,7 +310,7 @@ const ContactPage = () => {
                 rows={4}
                 placeholder="Tell us about your site (parking layout, available power, access hours), software needs (RFID, payments, OCPP), and any constraints."
                 required
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-md text-[#0e0004] outline-1 -outline-offset-1 outline-[#0e0004]/20 placeholder:text-[#0e0004]/50 focus:outline-2 focus:-outline-offset-2 focus:outline-[#2C5530]"
                 defaultValue={""}
               />
             </div>
@@ -319,7 +319,7 @@ const ContactPage = () => {
         <div className="mt-10">
           <button
             type="submit"
-            className="block w-full rounded-md bg-[#2C5530] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-[#2C5530]/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C5530] cursor-pointer"
+            className="block w-full rounded-md bg-[#2C5530] px-3.5 py-2.5 text-center text-md font-semibold text-white shadow-xs hover:bg-[#2C5530]/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2C5530] cursor-pointer"
           >
             Request consultation
           </button>

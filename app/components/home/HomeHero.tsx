@@ -229,7 +229,7 @@ const HomeHero = () => {
 
         <div className="hero-content">
           <div className="header" ref={headerRef}>
-            <h1 className="text-5xl font-bold text-[#fff8f0]">
+            <h1 className="text-5xl font-bold text-[#fff]">
               One Hub to Deploy, Monitor, and Optimize EV Charging Networks.
             </h1>
           </div>
