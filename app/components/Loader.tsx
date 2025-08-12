@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 const LoaderFive = ({ text }: { text: string }) => {
   return (
-    <div className="font-bold flex justify-center items-center min-h-[100svh] text-5xl">
+    <div className="font-bold flex justify-center items-center min-h-[100svh] text-3xl sm:text-4xl">
       {text.split("").map((char, i) => (
         <motion.span
           key={i}
