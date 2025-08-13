@@ -1,4 +1,4 @@
-import { FAQs, HomeHero, WhyTruck, Loader } from "./components";
+import { FAQs, HomeHero, WhyTruck, Loader, Team } from "./components";
 import { homeFAQs } from "./constants/constants";
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
       <HomeHero />
       <Loader text="We're Under Maintenance..." />
       <WhyTruck />
+      <Team />
       <FAQs faqs={homeFAQs} />
     </main>
   );
