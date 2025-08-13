@@ -124,7 +124,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-24 border-t border-gray-900/10 pt-12 xl:grid xl:grid-cols-3 xl:gap-8">
-          <Image src="/" alt="Website Logo" width={70} height={70} />
+          <Link href="/">
+            <Image
+              src="/logo-black.svg"
+              alt="Website Logo"
+              width={240}
+              height={240}
+            />
+          </Link>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>

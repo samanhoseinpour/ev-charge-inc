@@ -58,8 +58,7 @@ img {
   transform: translateX(-50%);
   transform-style: preserve-3d;
   perspective: 1000px;
-  padding: 0.5rem 0; 
-  
+  padding: 0.5rem 0;
 }
 
 .header {
