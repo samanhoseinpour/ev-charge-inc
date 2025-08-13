@@ -9,6 +9,7 @@ import Footer from "./Footer";
 // Home Components
 import HomeHero from "./home/HomeHero";
 import HomeHeroCta from "./home/HomeHeroCta";
+import WhyTruck from "./home/WhyTruck";
 
 // About Components
 import MagicBento from "./About/MagicBento";
@@ -29,6 +30,7 @@ export {
   Footer,
   HomeHero,
   HomeHeroCta,
+  WhyTruck,
   MagicBento,
   Lamp,
   CompanyTestimonials,
