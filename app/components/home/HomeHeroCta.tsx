@@ -7,7 +7,7 @@ const HomeHeroCta = () => {
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm/6 bg-white/30 text-white ring-1 ring-white/10 backdrop-blur-3xl">
             Scheduled maintenance in progress.{" "}
-            <Link href="#" className="font-semibold">
+            <Link href="/contact" className="font-semibold">
               <span aria-hidden="true" className="absolute inset-0" />
               Learn More <span aria-hidden="true">&rarr;</span>
             </Link>
