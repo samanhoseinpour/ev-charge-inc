@@ -237,7 +237,7 @@ const HomeHero = () => {
 
         <div className="hero-img-container">
           <div className="hero-img" ref={heroImgRef}>
-            <img src="/dashboard.png" alt="" />
+            <img src="/logo-white.png" alt="website logo" />
           </div>
         </div>
       </section>

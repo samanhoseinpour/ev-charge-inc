@@ -32,6 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="apple-mobile-web-app-title" content="Ev Charge" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/lenis@1.3.4/dist/lenis.css"
+        />
+      </head>
       <ReactLenis root>
         <body className={`${manrope.variable} antialiased`}>
           <ScrollProgress />
