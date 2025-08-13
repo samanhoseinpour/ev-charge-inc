@@ -17,7 +17,7 @@ const Lamp = () => {
         }}
         className="bg-gradient-to-br from-[#0e0004] to-[#0e0004] py-4 bg-clip-text text-center text-5xl font-bold text-transparent"
       >
-        Powering the Future of Sustainable Mobility
+        Engineering the Backbone of the Zero-Emission Era
       </motion.h1>
       <motion.p
         initial={{ opacity: 0.5, y: 100 }}
@@ -29,10 +29,10 @@ const Lamp = () => {
         }}
         className="mt-4 max-w-4xl text-center text-lg text-[#0e0004]"
       >
-        At Ev Charge Inc., we are committed to accelerating the transition to
-        sustainable transportation. Our mission is to provide innovative,
-        reliable, and eco-friendly charging solutions that empower communities
-        and businesses to embrace the future of mobility.
+        Based in Irvine, California, EV Charge Inc. is more than an EV charging
+        company—we’re a clean energy infrastructure partner. We operate 400 kW
+        DC fast-charging stations, manage a fleet of electric trucks, and
+        integrate solar farms to power a sustainable future.
       </motion.p>
       <motion.div
         initial={{ opacity: 0.5, y: 100 }}

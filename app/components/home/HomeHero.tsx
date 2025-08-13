@@ -5,6 +5,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
+import { HomeHeroCta } from "../";
+
 const HomeHero = () => {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -221,20 +223,17 @@ const HomeHero = () => {
 
   return (
     <div ref={containerRef}>
-      <section className="hero overflow-hidden relative w-[100vw] h-[100svh]">
+      <section className="hero overflow-hidden relative w-[100vw] h-[100svh] bg-[#0e0004]">
         <canvas
-          className="block w-full h-full object-cover"
+          className="block w-full h-full object-cover opacity-80"
           ref={canvasRef}
         ></canvas>
 
-        <div className="hero-content">
-          <div className="header" ref={headerRef}>
-            <h1 className="text-5xl font-bold text-[#fff]">
-              One Hub to Deploy, Monitor, and Optimize EV Charging Networks.
-            </h1>
+        <div className="hero-content z-50">
+          <div className="header max-w-7xl" ref={headerRef}>
+            <HomeHeroCta />
           </div>
         </div>
-
         <div className="hero-img-container">
           <div className="hero-img" ref={heroImgRef}>
             <img src="/logo-white.png" alt="website logo" />

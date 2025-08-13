@@ -7,6 +7,7 @@ import Footer from "./Footer";
 
 // Home Components
 import HomeHero from "./home/HomeHero";
+import HomeHeroCta from "./home/HomeHeroCta";
 
 // About Components
 import MagicBento from "./About/MagicBento";
@@ -21,6 +22,7 @@ export {
   Button,
   Footer,
   HomeHero,
+  HomeHeroCta,
   MagicBento,
   Lamp,
   CompanyTestimonials,
