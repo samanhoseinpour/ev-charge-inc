@@ -10,9 +10,9 @@ import HomeHero from "./home/HomeHero";
 import HomeHeroCta from "./home/HomeHeroCta";
 
 // About Components
-import MagicBento from "./about/MagicBento";
-import Lamp from "./about/Lamp";
-import CompanyTestimonials from "./about/CompanyTestimonials";
+import MagicBento from "./About/MagicBento";
+import Lamp from "./About/Lamp";
+import CompanyTestimonials from "./About/CompanyTestimonials";
 
 // Contact Components
 import ContactForm from "./contact/ContactForm";
