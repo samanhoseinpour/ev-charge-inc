@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Loader from "./Loader";
 import Navbar from "./Navbar";
 import Button from "./Button";
+import FAQs from "./FAQs";
 import Footer from "./Footer";
 
 // Home Components
@@ -24,6 +25,7 @@ export {
   Loader,
   Navbar,
   Button,
+  FAQs,
   Footer,
   HomeHero,
   HomeHeroCta,
