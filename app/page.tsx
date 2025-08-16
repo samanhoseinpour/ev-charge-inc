@@ -7,7 +7,7 @@ export default function Home() {
       <HomeHero />
       <Loader text="We're Under Maintenance..." />
       <WhyTruck />
-      <Team />
+      {/* <Team /> */}
       <FAQs faqs={homeFAQs} />
     </main>
   );
