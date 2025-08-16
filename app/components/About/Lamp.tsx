@@ -27,12 +27,20 @@ const Lamp = () => {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-4 max-w-4xl text-center text-lg text-[#0e0004]"
+        className="mt-4 max-w-7xl text-center text-lg text-[#0e0004]"
       >
-        Based in Irvine, California, EV Charge Inc. is more than an EV charging
-        company—we’re a clean energy infrastructure partner. We operate 400 kW
-        DC fast-charging stations, manage a fleet of electric trucks, and
-        integrate solar farms to power a sustainable future.
+        EVcharge Inc. is a California-based corporation dedicated to advancing
+        zero- emission and low-emission energy technologies. The company
+        develops, constructs, and operates electric vehicle (EV) charging
+        infrastructure, hydrogen production and fueling networks, and renewable
+        natural gas (RNG) and compressed natural gas (CNG) solutions for
+        commercial and heavy-duty vehicles. EVcharge also develops solar and
+        geothermal energy projects and integrates smart-grid and energy storage
+        technologies. Leveraging a multidisciplinary team with expertise in
+        Electronic, Petroleum and Drilling engineering, as well as geothermal
+        systems, the company delivers efficient and sustainable energy solutions
+        and contributes to California’s transition toward a zero-emission
+        economy.
       </motion.p>
       <motion.div
         initial={{ opacity: 0.5, y: 100 }}

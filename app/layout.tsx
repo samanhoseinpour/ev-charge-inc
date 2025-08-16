@@ -4,7 +4,13 @@ import "./globals.css";
 
 import { ReactLenis } from "./utils/lenis";
 
-import { ScrollProgress, Navbar, Footer, Banner } from "./components";
+import {
+  ScrollProgress,
+  Navbar,
+  Footer,
+  Banner,
+  BackToTopButton,
+} from "./components";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -48,6 +54,7 @@ export default function RootLayout({
             href="/contact"
           />
           <ScrollProgress />
+          <BackToTopButton />
           <Navbar />
           {children}
           <Footer />

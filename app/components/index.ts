@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Button from "./Button";
 import FAQs from "./FAQs";
 import FromBlog from "./FromBlog";
+import BackToTopButton from "./BackToTopButton";
 import Footer from "./Footer";
 
 // Home Components
@@ -34,6 +35,7 @@ export {
   Button,
   FAQs,
   FromBlog,
+  BackToTopButton,
   Footer,
   HomeHero,
   HomeHeroCta,
