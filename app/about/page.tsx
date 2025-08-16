@@ -1,4 +1,4 @@
-import { Lamp, MagicBento, CompanyTestimonials } from "../components";
+import { Lamp, MagicBento, CompanyTestimonials, FromBlog } from "../components";
 import { companyTestimonialsItem } from "../constants/constants";
 
 export const metadata = {
@@ -29,8 +29,11 @@ const AboutPage = () => {
         particleCount={36}
         glowColor="255 ,255 ,255"
       />
+
       <CompanyTestimonials items={companyTestimonialsItem} />
       <CompanyTestimonials items={companyTestimonialsItem} direction="right" />
+
+      <FromBlog />
     </main>
   );
 };
