@@ -1,0 +1,111 @@
+export const blogPosts = [
+  {
+    id: 1,
+    slug: "wireless-charging-next-step",
+    title: "Wireless Charging: The Next Step for EV Convenience",
+    href: "/blogs/wireless-charging-next-step",
+    description:
+      "Wireless EV charging uses inductive power transfer between a ground pad and a vehicle receiver to deliver energy without plugging in. This post explains how coils, alignment, and resonance affect efficiency; what standards like SAE J2954 mean for interoperability; and where power levels are today versus pilot projects for dynamic in‑road charging. We cover safety, installation costs, and use cases—from home garages to taxi ranks and fleets—and compare performance with Level 2 and DC fast charging. Learn timelines, pros and cons, and what matters for drivers evaluating truly cable‑free convenience.",
+    imageUrl: "/logo-black.svg",
+    date: "Sep 15, 2025",
+    datetime: "2025-09-15",
+    category: { title: "Emerging Tech", href: "/blogs" },
+    author: {
+      name: "Ev Charge Inc.",
+      role: "Technology Research Team",
+      href: "/",
+      imageUrl: "/logo-black.svg",
+    },
+  },
+
+  {
+    id: 2,
+    slug: "rise-of-ultra-fast-charging",
+    title: "The Rise of Ultra-Fast Charging",
+    href: "/blogs/rise-of-ultra-fast-charging",
+    description:
+      "Ultra‑fast charging (UFC) pushes DC power above 150–350 kW to cut stop times to minutes. We unpack battery chemistries, thermal management, and charge curves; the difference between CCS, NACS, and MCS; and how station design, grid connections, and on‑site storage shape reliability. See real‑world range added per minute, pricing models, peak‑shaving strategies, and the impact on battery life. We also outline route planning for long trips, accessibility considerations, and what to look for in future 400–1000 V architectures.",
+    imageUrl: "/logo-black.svg",
+    date: "Apr 10, 2025",
+    datetime: "2025-04-10",
+    category: { title: "Technology", href: "/blogs" },
+    author: {
+      name: "Ev Charge Inc.",
+      role: "Head of Product Innovation",
+      href: "/",
+      imageUrl: "/logo-black.svg",
+    },
+  },
+  {
+    id: 3,
+    slug: "ev-charging-infrastructure-challenges-solutions",
+    title: "EV Charging Infrastructure: Challenges and Solutions",
+    href: "/blogs/ev-charging-infrastructure-challenges-solutions",
+    description:
+      "Scaling public and private EV charging requires more than hardware. This guide maps the barriers—permitting delays, transformer lead times, grid capacity, uptime, payment interoperability, and equitable access—and the solutions that work. We dig into site selection, load management, solar + storage, demand response, and open protocols like OCPP/OICP. You’ll learn financing options, incentives, and KPIs operators track (utilization, sessions, energy, MTBF). We also highlight successful city and fleet deployments and a roadmap for resilient, user‑centric networks.",
+    imageUrl: "/logo-black.svg",
+    date: "May 22, 2025",
+    datetime: "2025-05-22",
+    category: { title: "Infrastructure", href: "/blogs" },
+    author: {
+      name: "Ev Charge Inc.",
+      role: "Infrastructure Analyst",
+      href: "/",
+      imageUrl: "/logo-black.svg",
+    },
+  },
+  {
+    id: 4,
+    slug: "sustainable-energy-for-ev-charging-stations",
+    title: "Sustainable Energy for EV Charging Stations",
+    href: "/blogs/sustainable-energy-for-ev-charging-stations",
+    description:
+      "EV charging becomes truly clean when powered by renewables. This article shows how solar canopies, behind‑the‑meter batteries, and smart inverters reduce grid emissions and operating costs. We compare PPAs vs. ownership, net‑metering, and time‑of‑use arbitrage; examine wind and community energy models; and explain sizing, intermittency, and forecasting. Learn how ISO/RTO markets, demand response, and V2G/V2H can monetize flexibility while keeping chargers reliable. Includes design tips for shade, lighting, drainage, and ADA access.",
+    imageUrl: "/logo-black.svg",
+    date: "Jun 5, 2025",
+    datetime: "2025-06-05",
+    category: { title: "Sustainability", href: "/blogs" },
+    author: {
+      name: "Ev Charge Inc.",
+      role: "Sustainability Lead",
+      href: "/",
+      imageUrl: "/logo-black.svg",
+    },
+  },
+  {
+    id: 5,
+    slug: "home-vs-public-charging-best-for-you",
+    title: "Home Charging vs. Public Charging: What’s Best for You?",
+    href: "/blogs/home-vs-public-charging-best-for-you",
+    description:
+      "Should you charge at home or rely on public stations? We break down Level 1/Level 2 hardware, installation steps, permits, and real electricity costs, then compare with workplace and DC fast pricing. Understand charging speeds, battery health best practices, and how smart scheduling lowers bills. We cover apartment living, shared garages, and travel scenarios, plus reliability, safety, and tax credits. A decision checklist helps you choose a setup that fits your daily mileage, budget, and convenience expectations.",
+    imageUrl: "/logo-black.svg",
+    date: "Jul 12, 2025",
+    datetime: "2025-07-12",
+    category: { title: "Consumer Advice", href: "/blogs" },
+    author: {
+      name: "Ev Charge Inc.",
+      role: "EV Consumer Specialist",
+      href: "/",
+      imageUrl: "/logo-black.svg",
+    },
+  },
+  {
+    id: 6,
+    slug: "how-smart-charging-is-shaping-evs",
+    title: "How Smart Charging is Shaping the Future of EVs",
+    href: "/blogs/how-smart-charging-is-shaping-evs",
+    description:
+      "Smart charging coordinates when and how EVs draw power. We explain algorithms that track tariffs, carbon intensity, and grid constraints; the role of ISO 15118, Plug & Charge, and OCPP; and how utilities use managed charging programs. See how V2G turns cars into mobile storage for homes, fleets, and microgrids, with revenue streams from peak shaving and ancillary services. We discuss cybersecurity, data privacy, and fleet telematics—and what features to look for in apps and chargers as the ecosystem matures.",
+    imageUrl: "/logo-black.svg",
+    date: "Aug 3, 2025",
+    datetime: "2025-08-03",
+    category: { title: "Innovation", href: "/blogs" },
+    author: {
+      name: "Ev Charge Inc.",
+      role: "Chief Technology Officer",
+      href: "/",
+      imageUrl: "/logo-black.svg",
+    },
+  },
+];

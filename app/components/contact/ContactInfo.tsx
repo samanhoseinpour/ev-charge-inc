@@ -6,25 +6,25 @@ const contactCards: {
 }[] = [
   {
     title: "Email",
-    email: "info@evchargeinc.com",
+    email: "s.rashidi@evchargeinc.com",
     phoneLabel: "(949) 555-1234",
     phoneHref: "tel:+19495551234",
   },
   {
     title: "Partnerships",
-    email: "partners@evchargeinc.com",
+    email: "s.rashidi@evchargeinc.com",
     phoneLabel: "(949) 555-1234",
     phoneHref: "tel:+19495551234",
   },
   {
     title: "Media",
-    email: "press@evchargeinc.com",
+    email: "s.rashidi@evchargeinc.com",
     phoneLabel: "(949) 555-1234",
     phoneHref: "tel:+19495551234",
   },
   {
     title: "Support",
-    email: "support@evchargeinc.com",
+    email: "s.rashidi@evchargeinc.com",
     phoneLabel: "(949) 555-1234",
     phoneHref: "tel:+19495551234",
   },
@@ -32,8 +32,8 @@ const contactCards: {
 
 const officeCards: { title: string; lines: string[] }[] = [
   {
-    title: "EV Charge Inc.",
-    lines: ["123 Greenway Drive", "Irvine, CA 92603"],
+    title: "Company Address:",
+    lines: ["Suite 157 , 2372 Morse Avenue Irvine CA 92614"],
   },
   {
     title: "Business Hours:",
@@ -56,9 +56,9 @@ const ContactInfo = () => {
               Get in touch
             </h2>
             <p className="mt-4 text-base/7 text-gray-600">
-              Talk to our team about home, workplace, and fleet charging. We typically
-              respond within one business day and can advise on design, installation,
-              rebates, and ongoing support.
+              Talk to our team about home, workplace, and fleet charging. We
+              typically respond within one business day and can advise on
+              design, installation, rebates, and ongoing support.
             </p>
           </div>
 
@@ -101,9 +101,9 @@ const ContactInfo = () => {
               Head Office
             </h2>
             <p className="mt-4 text-base/7 text-gray-600">
-              Visit our Irvine headquarters during business hours. For consultations or
-              site assessments, please schedule an appointment so we can connect you with
-              the right specialist.
+              Visit our Irvine headquarters during business hours. For
+              consultations or site assessments, please schedule an appointment
+              so we can connect you with the right specialist.
             </p>
           </div>
 

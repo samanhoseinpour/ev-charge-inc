@@ -84,7 +84,7 @@ const WhyTruck = () => {
             src="/home/WhyTruck.webp"
             width={2432}
             height={1442}
-            className="mb-[-12%] rounded-xl ring-1 shadow-2xl ring-gray-900/10"
+            className="mb-[-12%] rounded-xl ring-1 shadow-2xl ring-gray-900/10 object-cover"
           />
           <div aria-hidden="true" className="relative">
             <div className="absolute -inset-x-20 bottom-0 bg-linear-to-t from-white pt-[7%]" />

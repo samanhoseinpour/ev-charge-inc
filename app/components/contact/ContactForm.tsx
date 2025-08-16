@@ -1,6 +1,6 @@
 const ContactForm = () => {
   return (
-    <section className="min-h-[100svh] isolate px-6 py-24 sm:py-32 lg:px-8">
+    <section className="min-h-[100svh] isolate px-6 py-24 sm:py-48 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -14,7 +14,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="container mx-auto flex flex-col items-center justify-center max-w-4xl text-center">
-        <h1 className="text-4xl font-bold text-[#0e0004] sm:text-5xl">
+        <h1 className="text-4xl font-bold tracking-tight text-balance text-[#0e0004] sm:text-5xl">
           Request a Consultation
         </h1>
         <p className="mt-2 text-lg/8 text-[#0e0004]/70">

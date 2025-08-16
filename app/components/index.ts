@@ -17,6 +17,10 @@ import MagicBento from "./About/MagicBento";
 import Lamp from "./About/Lamp";
 import CompanyTestimonials from "./About/CompanyTestimonials";
 
+// Blog Components
+import BlogGrid from "./blogs/BlogGrid";
+import BlogToolbar from "./blogs/BlogToolbar";
+
 // Contact Components
 import ContactForm from "./contact/ContactForm";
 import ContactInfo from "./contact/ContactInfo";
@@ -36,6 +40,8 @@ export {
   MagicBento,
   Lamp,
   CompanyTestimonials,
+  BlogGrid,
+  BlogToolbar,
   ContactForm,
   ContactInfo,
 };
