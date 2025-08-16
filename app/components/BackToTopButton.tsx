@@ -25,7 +25,7 @@ const BackToTopButton = () => {
       {isVisible && (
         <button
           onClick={handleScrollToTop}
-          className="fixed bottom-8 right-8 rounded-full transition duration-300 bg-[#2c5530] text-white p-2"
+          className="fixed bottom-8 right-8 rounded-full transition duration-300 bg-[#2c5530] text-white p-2 z-99"
         >
           <IconArrowUp />
         </button>

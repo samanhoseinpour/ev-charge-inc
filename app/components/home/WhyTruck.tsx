@@ -1,14 +1,5 @@
 import Image from "next/image";
 
-// import {
-//   ArrowPathIcon,
-//   CloudArrowUpIcon,
-//   Cog6ToothIcon,
-//   FingerPrintIcon,
-//   LockClosedIcon,
-//   ServerIcon,
-// } from "@heroicons/react/20/solid";
-
 import {
   IconAi,
   IconVersions,
