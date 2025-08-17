@@ -4,13 +4,7 @@ import "./globals.css";
 
 import { ReactLenis } from "./utils/lenis";
 
-import {
-  ScrollProgress,
-  Navbar,
-  Footer,
-  Banner,
-  BackToTopButton,
-} from "./components";
+import { ScrollProgress, Navbar, Footer, BackToTopButton } from "./components";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -47,12 +41,6 @@ export default function RootLayout({
       </head>
       <ReactLenis root>
         <body className={`${manrope.variable} antialiased`}>
-          <Banner
-            message="We’re undergoing maintenance. If you experience issues, they may be
-          related — we’ll be back soon."
-            cta="Contact Support"
-            href="/contact"
-          />
           <ScrollProgress />
           <BackToTopButton />
           <Navbar />
