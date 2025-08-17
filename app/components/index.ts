@@ -14,6 +14,7 @@ import HomeHeroCta from "./home/HomeHeroCta";
 import WhyTruck from "./home/WhyTruck";
 import Team from "./home/Team";
 import ServicesSlider from "./home/ServicesSlider";
+import FeatureListHome from "./home/FeatureListHome";
 
 // About Components
 import MagicBento from "./About/MagicBento";
@@ -43,6 +44,7 @@ export {
   WhyTruck,
   Team,
   ServicesSlider,
+  FeatureListHome,
   MagicBento,
   Lamp,
   CompanyTestimonials,
