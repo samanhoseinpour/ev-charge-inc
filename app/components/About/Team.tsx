@@ -240,14 +240,14 @@ const teamData = [
   {
     id: 1,
     description: "CEO and President",
-    title: "Reza Ghasemi",
+    title: "Mr. Saeid Rashidi",
     src: "/team/saeid-rashidi.jpg",
     ctaText: "Resume",
     ctaLink: "/",
     content: () => {
       return (
         <p>
-          As Founder & CEO, Reza Ghasemi drives our vision, innovation, and
+          As Founder & CEO, Mr. Saeid Rashidi drives our vision, innovation, and
           growth, blending expertise with forward-thinking leadership.
         </p>
       );
