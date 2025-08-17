@@ -79,7 +79,7 @@ const Footer = () => {
           className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#2C5530] to-[#2C5530] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"
         />
       </div>
-      <div className="container mx-auto px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+      <div className="container mx-auto px-6 py-12 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <hgroup>
             <h4 className="text-base/7 font-Bold text-[#2c5530]">
