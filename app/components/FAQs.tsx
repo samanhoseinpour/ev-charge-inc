@@ -10,7 +10,7 @@ interface FAQsProps {
 
 const FAQs = ({ faqs }: FAQsProps) => {
   return (
-    <section className="max-w-7xl mx-auto py-16 sm:py-24 ">
+    <section className="max-w-7xl mx-auto py-16 sm:py-24 px-6">
       <h3 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
         Frequently asked questions
       </h3>

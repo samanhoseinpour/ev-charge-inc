@@ -13,6 +13,7 @@ import HomeHero from "./home/HomeHero";
 import HomeHeroCta from "./home/HomeHeroCta";
 import WhyTruck from "./home/WhyTruck";
 import Team from "./home/Team";
+import ServicesSlider from "./home/ServicesSlider";
 
 // About Components
 import MagicBento from "./About/MagicBento";
@@ -41,6 +42,7 @@ export {
   HomeHeroCta,
   WhyTruck,
   Team,
+  ServicesSlider,
   MagicBento,
   Lamp,
   CompanyTestimonials,

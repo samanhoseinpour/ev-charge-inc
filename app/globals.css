@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: #2c5530; /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+
   *::selection {
     background: #2c5530;
     color: #fff;
@@ -15,7 +25,6 @@
     background: var(--background);
     color: var(--foreground);
     font-family: Manrope, Helvetica, sans-serif;
-    overflow-x: hidden;
   }
 }
 
