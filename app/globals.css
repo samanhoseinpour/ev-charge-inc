@@ -58,7 +58,7 @@ img {
 }
 
 .img-cover {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   object-fit: cover;
 }
@@ -78,7 +78,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,8 +121,9 @@ img {
 /* Hide scrollbar UI but keep scrolling */
 .no-scrollbar {
   -ms-overflow-style: none; /* IE 10+ / Edge Legacy */
-  scrollbar-width: none;    /* Firefox */
+  scrollbar-width: none; /* Firefox */
 }
-.no-scrollbar::-webkit-scrollbar { /* Chrome, Safari, Edge */
+.no-scrollbar::-webkit-scrollbar {
+  /* Chrome, Safari, Edge */
   display: none;
 }

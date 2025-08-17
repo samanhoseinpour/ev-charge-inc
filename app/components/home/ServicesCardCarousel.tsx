@@ -200,7 +200,11 @@ export const Card = ({
     <>
       <AnimatePresence>
         {open && (
-          <div className="fixed inset-0 z-50 h-dvh overflow-hidden" role="dialog" aria-modal="true">
+          <div
+            className="fixed inset-0 z-50 h-dvh overflow-hidden"
+            role="dialog"
+            aria-modal="true"
+          >
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
