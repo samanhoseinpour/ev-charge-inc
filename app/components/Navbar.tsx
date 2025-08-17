@@ -297,7 +297,7 @@ const Navbar = () => {
     },
     {
       name: "Solutions",
-      link: "/solutions",
+      link: "/",
     },
     {
       name: "Blogs",
