@@ -12,7 +12,7 @@ const ServicesSlider = () => {
   return (
     <section className="w-full h-full py-20">
       <div className="mx-auto container px-6">
-        <h2 className="text-base/7 font-bold text-[#2c5530]">
+        <h2 className="text-base/7 font-semibold text-[#2c5530]">
           Engineering the Backbone of Clean Transportation
         </h2>
         <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl sm:text-balance">
@@ -35,8 +35,8 @@ const ServicesContent = ({
   sections,
   imageSrc = "/logo-white.svg",
   imageAlt = "Service image",
-  imageHeight = 150,
-  imageWidth = 150,
+  imageHeight = 250,
+  imageWidth = 250,
 }: {
   sections: { title: string; items: string[] }[];
   imageSrc?: string;
@@ -45,47 +45,36 @@ const ServicesContent = ({
   imageWidth?: number;
 }) => {
   return (
-    <>
-      {[...new Array(1).fill(1)].map((_, index) => {
-        return (
-          <div
-            key={"services-content" + index}
-            className="bg-white/80 p-8 rounded-3xl mb-4"
-          >
-            <ul className="text-black/80 text-base md:text-xl font-sans max-w-5xl mx-auto list-disc pl-6">
-              {sections.map((section, sIdx) => (
-                <li key={`section-${sIdx}`}>
-                  <span className="font-semibold text-black">
-                    {section.title}
-                  </span>
-                  <ul className="list-disc pl-6">
-                    {section.items.map((item, iIdx) => (
-                      <li key={`item-${sIdx}-${iIdx}`}>{item}</li>
-                    ))}
-                  </ul>
-                </li>
+    <div className="bg-white/80 p-8 rounded-3xl mb-4">
+      <ul className="text-black/80 text-base md:text-xl font-sans max-w-5xl mx-auto list-disc pl-6">
+        {sections.map((section, sIdx) => (
+          <li key={`section-${sIdx}`}>
+            <span className="font-semibold text-black">{section.title}</span>
+            <ul className="list-disc pl-6">
+              {section.items.map((item, iIdx) => (
+                <li key={`item-${sIdx}-${iIdx}`}>{item}</li>
               ))}
             </ul>
-            <Image
-              src={imageSrc}
-              alt={imageAlt}
-              height={imageHeight}
-              width={imageWidth}
-              className="h-full w-full mx-auto object-cover rounded-lg mt-6"
-            />
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center mt-12">
-              <div className="relative rounded-full px-3 py-1 text-sm/6 bg-[#2c5530] text-white ring-1 ring-white/10 backdrop-blur-3xl">
-                Scheduled maintenance in progress.{" "}
-                <Link href="/contact" className="font-semibold">
-                  <span aria-hidden="true" className="absolute inset-0" />
-                  Learn More <span aria-hidden="true">&rarr;</span>
-                </Link>
-              </div>
-            </div>
-          </div>
-        );
-      })}
-    </>
+          </li>
+        ))}
+      </ul>
+      <Image
+        src={imageSrc}
+        alt={imageAlt}
+        height={imageHeight}
+        width={imageWidth}
+        className="w-full mx-auto object-cover rounded-lg mt-6"
+      />
+      <div className="hidden sm:mb-8 sm:flex sm:justify-center mt-12">
+        <div className="relative rounded-full px-3 py-1 text-sm/6 bg-[#2c5530] text-white ring-1 ring-white/10 backdrop-blur-3xl">
+          Scheduled maintenance in progress.{" "}
+          <Link href="/contact" className="font-semibold">
+            <span aria-hidden="true" className="absolute inset-0" />
+            Learn More <span aria-hidden="true">&rarr;</span>
+          </Link>
+        </div>
+      </div>
+    </div>
   );
 };
 

@@ -92,13 +92,13 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
     >
       <div className="relative w-full">
         <div
-          className="flex w-full overflow-x-scroll overscroll-x-auto scroll-smooth py-10 [scrollbar-width:none] md:py-20"
+          className="flex w-full overflow-x-scroll overscroll-x-auto scroll-smooth py-10 no-scrollbar"
           ref={carouselRef}
           onScroll={checkScrollability}
         >
           <div
             className={cn(
-              "absolute right-0 z-[1000] h-auto w-[5%] overflow-hidden bg-gradient-to-l"
+              "absolute right-0 z-[1000] h-auto w-[5%] bg-gradient-to-l"
             )}
           ></div>
 
@@ -200,12 +200,12 @@ export const Card = ({
     <>
       <AnimatePresence>
         {open && (
-          <div className="fixed inset-0 z-50 h-screen overflow-auto">
+          <div className="fixed inset-0 z-50 h-dvh overflow-hidden" role="dialog" aria-modal="true">
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="fixed inset-0 h-full w-full bg-white/20 backdrop-blur-lg"
+              className="fixed inset-0 h-full w-full bg-white/20 backdrop-blur-lg pointer-events-none"
             />
             <motion.div
               initial={{ opacity: 0 }}
@@ -213,7 +213,8 @@ export const Card = ({
               exit={{ opacity: 0 }}
               ref={containerRef}
               layoutId={layout ? `card-${card.title}` : undefined}
-              className="relative z-[60] mx-auto my-10 h-fit max-w-5xl rounded-3xl bg-white p-4 md:p-10"
+              onWheel={(e) => e.stopPropagation()}
+              className="relative z-[60] mx-auto my-10 max-h-[90dvh] overflow-y-auto overscroll-contain no-scrollbar max-w-5xl rounded-3xl bg-white p-4 md:p-10"
             >
               <button
                 className="sticky top-4 right-0 ml-auto flex h-8 w-8 items-center justify-center rounded-full bg-[#2c5530]"
