@@ -1,4 +1,11 @@
-import { Lamp, MagicBento, CompanyTestimonials, FromBlog } from "../components";
+import {
+  AboutHero,
+  Lamp,
+  MagicBento,
+  CompanyTestimonials,
+  FromBlog,
+  Team,
+} from "../components";
 import { companyTestimonialsItem } from "../constants/constants";
 
 export const metadata = {
@@ -16,6 +23,8 @@ export const metadata = {
 const AboutPage = () => {
   return (
     <main>
+      <AboutHero />
+      <Team />
       <Lamp />
       <MagicBento
         textAutoHide={true}

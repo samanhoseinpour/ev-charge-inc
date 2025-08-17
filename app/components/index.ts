@@ -14,12 +14,13 @@ import Footer from "./Footer";
 import HomeHero from "./home/HomeHero";
 import HomeHeroCta from "./home/HomeHeroCta";
 import WhyTruck from "./home/WhyTruck";
-import Team from "./home/Team";
+import Team from "./About/Team";
 import ServicesSlider from "./home/ServicesSlider";
 import FeatureListHome from "./home/FeatureListHome";
 import ComparisonTable from "./home/ComparisonTable";
 
 // About Components
+import AboutHero from "./About/AboutHero";
 import MagicBento from "./About/MagicBento";
 import Lamp from "./About/Lamp";
 import CompanyTestimonials from "./About/CompanyTestimonials";
@@ -49,6 +50,7 @@ export {
   ServicesSlider,
   FeatureListHome,
   ComparisonTable,
+  AboutHero,
   MagicBento,
   Lamp,
   CompanyTestimonials,

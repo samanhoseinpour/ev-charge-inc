@@ -29,18 +29,23 @@ const Lamp = () => {
         }}
         className="mt-4 max-w-7xl text-center text-lg text-[#0e0004]"
       >
-        EVcharge Inc. is a California-based corporation dedicated to advancing
-        zero- emission and low-emission energy technologies. The company
-        develops, constructs, and operates electric vehicle (EV) charging
-        infrastructure, hydrogen production and fueling networks, and renewable
-        natural gas (RNG) and compressed natural gas (CNG) solutions for
-        commercial and heavy-duty vehicles. EVcharge also develops solar and
-        geothermal energy projects and integrates smart-grid and energy storage
-        technologies. Leveraging a multidisciplinary team with expertise in
-        Electronic, Petroleum and Drilling engineering, as well as geothermal
-        systems, the company delivers efficient and sustainable energy solutions
-        and contributes to California’s transition toward a zero-emission
-        economy.
+        EVcharge Inc. is a California-based corporation advancing zero-emission
+        transportation through state-of-the-art electric vehicle (EV) charging
+        infrastructure. The company designs, builds, and operates advanced
+        charging stations for passenger vehicles, commercial EV trucks, and
+        fleets, supporting California’s clean-energy goals. Beyond EV charging,
+        EVcharge develops hydrogen production and fueling networks, integrates
+        renewable natural gas (RNG) and compressed natural gas (CNG) solutions
+        for heavy-duty vehicles, and establishes solar and geothermal energy
+        projects to provide clean, reliable power. With a multidisciplinary team
+        experienced in Electronic, Petroleum and drilling engineering, as well
+        as geothermal systems, EVcharge delivers innovative, high-efficiency
+        solutions. The company incorporates smart-grid technologies and energy
+        storage to maximize operational efficiency, resilience, and
+        sustainability. Committed to reducing California’s carbon footprint and
+        promoting equitable access to clean energy, EVcharge contributes to the
+        state’s transition toward a zero-emission economy through diversified
+        renewable strategies and cross-disciplinary expertise.
       </motion.p>
       <motion.div
         initial={{ opacity: 0.5, y: 100 }}

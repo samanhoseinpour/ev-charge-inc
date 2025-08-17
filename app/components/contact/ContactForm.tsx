@@ -1,6 +1,6 @@
 const ContactForm = () => {
   return (
-    <section className="min-h-[100svh] isolate px-6 py-24 sm:py-48 lg:px-8">
+    <section className="h-[100svh] isolate py-24 sm:py-32 mt-16 mb-24">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
