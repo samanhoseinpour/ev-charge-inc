@@ -11,40 +11,46 @@ import {
 
 const whyTruckFeatures = [
   {
-    name: "Lower Operating Costs",
-    description:
-      "Electric trucks reduce fuel and maintenance expenses compared to traditional diesel fleets.",
-    icon: IconClockDollar,
-  },
-  {
+    id: 1,
     name: "Zero Tailpipe Emissions",
     description:
-      "Eliminate harmful pollutants and greenhouse gas emissions, supporting sustainability goals.",
+      "Completely eliminates CO₂, NOx, and PM2.5 emissions, supporting clean air and sustainability goals.",
     icon: IconVersions,
   },
   {
-    name: "Government Incentives",
+    id: 2,
+    name: "Instant Torque",
     description:
-      "Benefit from tax credits, grants, and subsidies that accelerate ROI for electric fleets.",
-    icon: IconLaurelWreath,
-  },
-  {
-    name: "Quiet and Efficient",
-    description:
-      "Reduced noise pollution and smoother operation improve driver comfort and urban livability.",
-    icon: IconSolarElectricity,
-  },
-  {
-    name: "Advanced Technology",
-    description:
-      "Integrated telematics, regenerative braking, and smart energy management optimize performance.",
+      "Electric drivetrains deliver immediate torque and superior acceleration compared to diesel engines.",
     icon: IconAi,
   },
   {
-    name: "Future-Proof Compliance",
+    id: 3,
+    name: "Regenerative Braking",
     description:
-      "Meet evolving emissions regulations and avoid costly penalties or retrofits.",
+      "Captures energy during braking and extends brake component life by up to 50%.",
     icon: IconComponents,
+  },
+  {
+    id: 4,
+    name: "Quiet Operation",
+    description:
+      "Reduced noise pollution and quieter driving help lower driver fatigue and improve urban livability.",
+    icon: IconSolarElectricity,
+  },
+  {
+    id: 5,
+    name: "No Idling Penalties",
+    description:
+      "Zero idling emissions eliminate compliance risks and reduce unnecessary fuel waste.",
+    icon: IconClockDollar,
+  },
+  {
+    id: 6,
+    name: "Lower Operating Costs",
+    description:
+      "Electric trucks average ~$0.15 per mile vs. ~$0.50 per mile for diesel, delivering significant savings.",
+    icon: IconLaurelWreath,
   },
 ];
 
@@ -85,7 +91,7 @@ const WhyTruck = () => {
       <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
         <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
           {whyTruckFeatures.map((feature) => (
-            <div key={feature.name} className="relative pl-9">
+            <div key={feature.id} className="relative pl-9">
               <dt className="inline font-semibold text-gray-900">
                 <feature.icon
                   aria-hidden="true"
