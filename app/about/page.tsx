@@ -39,8 +39,8 @@ const AboutPage = () => {
         glowColor="255 ,255 ,255"
       />
 
-      <CompanyTestimonials items={companyTestimonialsItem} />
-      <CompanyTestimonials items={companyTestimonialsItem} direction="right" />
+      {/* <CompanyTestimonials items={companyTestimonialsItem} />
+      <CompanyTestimonials items={companyTestimonialsItem} direction="right" /> */}
 
       <FromBlog />
     </main>
