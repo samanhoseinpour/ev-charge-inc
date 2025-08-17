@@ -1,3 +1,5 @@
+// Gateway for Components
+
 import ScrollProgress from "./ScrollProgress";
 import Banner from "./Banner";
 import Loader from "./Loader";
@@ -15,6 +17,7 @@ import WhyTruck from "./home/WhyTruck";
 import Team from "./home/Team";
 import ServicesSlider from "./home/ServicesSlider";
 import FeatureListHome from "./home/FeatureListHome";
+import ComparisonTable from "./home/ComparisonTable";
 
 // About Components
 import MagicBento from "./About/MagicBento";
@@ -45,6 +48,7 @@ export {
   Team,
   ServicesSlider,
   FeatureListHome,
+  ComparisonTable,
   MagicBento,
   Lamp,
   CompanyTestimonials,
