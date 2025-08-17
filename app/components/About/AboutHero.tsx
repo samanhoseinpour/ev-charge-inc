@@ -1,14 +1,26 @@
-import Image from "next/image";
 import Link from "next/link";
+
+import { Video } from "@imagekit/next";
 
 const AboutHero = () => {
   return (
-    <section className="py-24 sm:py-32 mt-16">
-      <div className="container mx-auto text-center">
-        <h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 md:text-5xl">
+    <section className="relative overflow-hidden py-24 sm:py-32 h-[100svh] mb-24">
+      <div className="absolute inset-0 w-full h-full z-0 bg-black">
+        <Video
+          urlEndpoint="https://ik.imagekit.io/evchargeinc/"
+          src="/aboutHero.mp4/ik-video.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover opacity-80"
+        />
+      </div>
+      <div className="container relative z-10 mx-auto text-center flex flex-col justify-center items-center h-full">
+        <h1 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl text-white">
           Building the Infrastructure for a Zero-Emission Economy
         </h1>
-        <p className="mb-8 text-gray-500 sm:px-16 md:text-lg lg:text-md xl:px-48">
+        <p className="mb-8 sm:px-16 md:text-lg lg:text-xl xl:px-48 text-white font-semibold">
           EVcharge Inc. is a California-based corporation dedicated to advancing
           zero- emission and low-emission energy technologies. The company
           develops, constructs, and operates electric vehicle (EV) charging
@@ -31,25 +43,10 @@ const AboutHero = () => {
           </Link>
           <Link
             href="/contact"
-            className="px-6 py-3 border border-[#2c5530] text-[#2c5530] rounded-md font-semibold hover:bg-[#2c5530] hover:border-[#2c5530] hover:text-white transition-colors"
+            className="px-6 py-3 border border-white text-[white] rounded-md font-semibold hover:bg-[#2c5530] hover:border-[#2c5530] hover:text-white transition-colors"
           >
             Contact Us
           </Link>
-        </div>
-
-        <Image
-          width={1200}
-          height={900}
-          className="z-10 mx-auto mb-5 rounded-lg shadow-xl lg:mb-8"
-          src="/about/AboutHero.avif"
-          alt="dashboard overview"
-        />
-      </div>
-      <div className="z-20 -mt-48 bg-[#2c5530] pb-8 pt-48 sm:-mt-80 sm:pt-80 lg:pb-16">
-        <div className="mx-auto px-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-          <div className="mt-8 flex flex-wrap items-center justify-center text-gray-500 sm:justify-between">
-            {/* content section */}
-          </div>
         </div>
       </div>
     </section>

@@ -84,7 +84,7 @@ export const LampContainer = ({
   return (
     <section
       className={cn(
-        "container mx-auto -mb-24 mt-24 relative flex h-[90svh] flex-col items-center justify-center overflow-hidden bg-[#fff] w-full rounded-md z-0",
+        "container mx-auto -mb-24 relative flex h-[90svh] flex-col items-center justify-center overflow-hidden bg-[#fff] w-full rounded-md z-0",
         className
       )}
     >
